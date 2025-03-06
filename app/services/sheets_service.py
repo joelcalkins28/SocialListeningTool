@@ -11,26 +11,34 @@ logger = logging.getLogger(__name__)
 
 class GoogleSheetsService:
     def __init__(self):
-        # Get credentials path from environment variable
-        credentials_path = os.getenv("GOOGLE_SHEETS_CREDENTIALS")
-        if not credentials_path:
-            raise ValueError("GOOGLE_SHEETS_CREDENTIALS environment variable not set")
+        # Get credentials from environment variables
+        credentials = {
+            "type": "service_account",
+            "project_id": os.getenv("GOOGLE_PROJECT_ID"),
+            "private_key_id": os.getenv("GOOGLE_PRIVATE_KEY_ID"),
+            "private_key": os.getenv("GOOGLE_PRIVATE_KEY").replace("\\n", "\n"),
+            "client_email": os.getenv("GOOGLE_CLIENT_EMAIL"),
+            "client_id": os.getenv("GOOGLE_CLIENT_ID"),
+            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            "token_uri": "https://oauth2.googleapis.com/token",
+            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            "client_x509_cert_url": os.getenv("GOOGLE_CLIENT_X509_CERT_URL")
+        }
         
-        # Get the absolute path to the credentials file
-        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        credentials_path = os.path.join(base_dir, credentials_path)
-        
-        if not os.path.exists(credentials_path):
-            raise ValueError(f"Credentials file not found at: {credentials_path}")
+        # Validate required fields
+        required_fields = ["project_id", "private_key_id", "private_key", "client_email", "client_id", "client_x509_cert_url"]
+        missing_fields = [field for field in required_fields if not credentials.get(field)]
+        if missing_fields:
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_fields)}")
         
         self.scope = [
             'https://spreadsheets.google.com/feeds',
             'https://www.googleapis.com/auth/drive'
         ]
         
-        # Create credentials from the file
-        self.credentials = Credentials.from_service_account_file(
-            credentials_path,
+        # Create credentials from the dictionary
+        self.credentials = Credentials.from_service_account_info(
+            credentials,
             scopes=self.scope
         )
         
