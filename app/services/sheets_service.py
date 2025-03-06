@@ -39,7 +39,8 @@ class GoogleSheetsService:
                 # Log key structure (safely)
                 logger.debug("Private key validation:")
                 logger.debug(f"Starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
-                logger.debug(f"Ends with correct footer: {private_key.endswith('-----END PRIVATE KEY-----\n')}")
+                end_marker = '-----END PRIVATE KEY-----\n'
+                logger.debug(f"Ends with correct footer: {private_key.endswith(end_marker)}")
                 logger.debug(f"Contains newlines: {'\n' in private_key}")
             
             credentials = {
