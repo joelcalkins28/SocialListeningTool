@@ -6,6 +6,7 @@ from google.oauth2.service_account import Credentials
 import gspread
 from datetime import datetime
 import pandas as pd
+import base64
 
 logger = logging.getLogger(__name__)
 
@@ -15,15 +16,31 @@ class GoogleSheetsService:
             # Get credentials from environment variables
             private_key = os.getenv("GOOGLE_PRIVATE_KEY")
             if private_key:
-                # Log the structure of the private key (safely)
-                logger.debug(f"Private key starts with: {private_key[:50]}...")
-                logger.debug(f"Private key contains BEGIN marker: {'BEGIN PRIVATE KEY' in private_key}")
-                logger.debug(f"Private key contains END marker: {'END PRIVATE KEY' in private_key}")
+                try:
+                    # Try to decode if it's base64 encoded
+                    private_key = base64.b64decode(private_key).decode('utf-8')
+                except:
+                    # If not base64, use as is
+                    pass
                 
-                # Handle both escaped and unescaped newlines
+                # Clean up the private key
+                private_key = private_key.strip()
                 private_key = private_key.replace('\\n', '\n')
+                private_key = private_key.replace('\\"', '"')
+                
+                # Ensure proper formatting
                 if not private_key.startswith('-----BEGIN PRIVATE KEY-----'):
-                    private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}\n-----END PRIVATE KEY-----\n"
+                    private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}"
+                if not private_key.endswith('-----END PRIVATE KEY-----'):
+                    private_key = f"{private_key}\n-----END PRIVATE KEY-----"
+                if not private_key.endswith('\n'):
+                    private_key += '\n'
+                
+                # Log key structure (safely)
+                logger.debug("Private key validation:")
+                logger.debug(f"Starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
+                logger.debug(f"Ends with correct footer: {private_key.endswith('-----END PRIVATE KEY-----\n')}")
+                logger.debug(f"Contains newlines: {'\n' in private_key}")
             
             credentials = {
                 "type": "service_account",
