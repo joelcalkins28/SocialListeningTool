@@ -11,25 +11,26 @@ logger = logging.getLogger(__name__)
 
 class GoogleSheetsService:
     def __init__(self):
-        # Get credentials from environment variable
-        credentials_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON")
-        if not credentials_json:
-            raise ValueError("GOOGLE_APPLICATION_CREDENTIALS_JSON environment variable not set")
+        # Get credentials path from environment variable
+        credentials_path = os.getenv("GOOGLE_SHEETS_CREDENTIALS")
+        if not credentials_path:
+            raise ValueError("GOOGLE_SHEETS_CREDENTIALS environment variable not set")
         
-        try:
-            # Parse the JSON string into a dictionary
-            credentials_info = json.loads(credentials_json)
-        except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON in GOOGLE_APPLICATION_CREDENTIALS_JSON: {str(e)}")
+        # Get the absolute path to the credentials file
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        credentials_path = os.path.join(base_dir, credentials_path)
+        
+        if not os.path.exists(credentials_path):
+            raise ValueError(f"Credentials file not found at: {credentials_path}")
         
         self.scope = [
             'https://spreadsheets.google.com/feeds',
             'https://www.googleapis.com/auth/drive'
         ]
         
-        # Create credentials from the dictionary
-        self.credentials = Credentials.from_service_account_info(
-            credentials_info,
+        # Create credentials from the file
+        self.credentials = Credentials.from_service_account_file(
+            credentials_path,
             scopes=self.scope
         )
         
