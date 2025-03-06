@@ -32,12 +32,15 @@ app = FastAPI(title="Social Listening Tool")
 
 # Get the absolute path to the static directory
 static_dir = Path(__file__).parent.parent / "static"
+static_dir.mkdir(exist_ok=True)  # Create the directory if it doesn't exist
 
 # Mount static files
 app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
 
 # Templates
-templates = Jinja2Templates(directory="templates")
+templates_dir = Path(__file__).parent.parent / "templates"
+templates_dir.mkdir(exist_ok=True)  # Create the templates directory if it doesn't exist
+templates = Jinja2Templates(directory=str(templates_dir))
 
 # Initialize services
 data_collector = SocialMediaDataCollector()
