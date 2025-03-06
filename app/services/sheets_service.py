@@ -41,7 +41,13 @@ class GoogleSheetsService:
                 logger.debug(f"Starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
                 end_marker = '-----END PRIVATE KEY-----\n'
                 logger.debug(f"Ends with correct footer: {private_key.endswith(end_marker)}")
-                logger.debug(f"Contains newlines: {'\n' in private_key}")
+                newline_count = private_key.count('\n')
+                logger.debug(f"Number of newlines in key: {newline_count}")
+                
+                # Additional debug info
+                key_parts = private_key.split('\n')
+                logger.debug(f"Number of key parts: {len(key_parts)}")
+                logger.debug(f"Key structure valid: {len(key_parts) > 2 and key_parts[0].startswith('-----BEGIN') and key_parts[-2].endswith('-----')}")
             
             credentials = {
                 "type": "service_account",
@@ -76,6 +82,10 @@ class GoogleSheetsService:
             # Create credentials from the dictionary
             try:
                 logger.debug("Attempting to create credentials...")
+                # Log the structure of credentials (safely)
+                safe_creds = {k: ('set' if v else 'not set') for k, v in credentials.items()}
+                logger.debug(f"Credentials structure: {json.dumps(safe_creds, indent=2)}")
+                
                 self.credentials = Credentials.from_service_account_info(
                     credentials,
                     scopes=self.scope
