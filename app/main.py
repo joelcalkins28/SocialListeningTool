@@ -30,8 +30,11 @@ logger = logging.getLogger(__name__)
 # Initialize FastAPI app
 app = FastAPI(title="Social Listening Tool")
 
+# Get the absolute path to the static directory
+static_dir = Path(__file__).parent.parent / "static"
+
 # Mount static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
 
 # Templates
 templates = Jinja2Templates(directory="templates")
