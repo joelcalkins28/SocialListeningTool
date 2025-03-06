@@ -1,0 +1,1094 @@
+[
+    {
+        "platform": "Instagram",
+        "date": "2025-02-04 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7310,
+            "comments": 187,
+            "shares": 92
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/1236"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-04 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2752,
+            "comments": 391,
+            "shares": 18
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/4908"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4102,
+            "comments": 420,
+            "shares": 137
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/7012"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9751,
+            "comments": 348,
+            "shares": 100
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5426"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7005,
+            "comments": 208,
+            "shares": 59
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/5019"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 571,
+            "comments": 415,
+            "shares": 157
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/3878"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7759,
+            "comments": 245,
+            "shares": 46
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/3211"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6200,
+            "comments": 235,
+            "shares": 69
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/3275"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-07 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3514,
+            "comments": 414,
+            "shares": 28
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/4766"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-07 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8528,
+            "comments": 105,
+            "shares": 62
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/3975"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-07 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 5890,
+            "comments": 91,
+            "shares": 142
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/4846"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-07 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6753,
+            "comments": 359,
+            "shares": 50
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5339"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-07 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8469,
+            "comments": 406,
+            "shares": 59
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/7096"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-08 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2869,
+            "comments": 58,
+            "shares": 67
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/2494"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-08 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1918,
+            "comments": 246,
+            "shares": 41
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/1164"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-08 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6285,
+            "comments": 50,
+            "shares": 151
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/9582"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-09 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1901,
+            "comments": 135,
+            "shares": 106
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/2547"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-09 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7431,
+            "comments": 393,
+            "shares": 15
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/4388"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-09 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4777,
+            "comments": 465,
+            "shares": 72
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8428"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-10 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2545,
+            "comments": 282,
+            "shares": 25
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5587"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-10 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1425,
+            "comments": 273,
+            "shares": 44
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8746"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-11 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2887,
+            "comments": 306,
+            "shares": 39
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/8503"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-11 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7007,
+            "comments": 456,
+            "shares": 147
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/7562"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-11 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3219,
+            "comments": 210,
+            "shares": 108
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/9761"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-11 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6778,
+            "comments": 66,
+            "shares": 95
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/4351"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-11 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8672,
+            "comments": 27,
+            "shares": 40
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/6689"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-12 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8190,
+            "comments": 126,
+            "shares": 44
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/7675"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-12 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2434,
+            "comments": 452,
+            "shares": 33
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/1151"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-12 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6259,
+            "comments": 238,
+            "shares": 188
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5317"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-12 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2713,
+            "comments": 177,
+            "shares": 132
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/1047"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-12 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6104,
+            "comments": 347,
+            "shares": 178
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/5426"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-13 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2106,
+            "comments": 224,
+            "shares": 89
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/4033"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-13 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4176,
+            "comments": 463,
+            "shares": 181
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/7869"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-14 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9197,
+            "comments": 101,
+            "shares": 167
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/2921"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-15 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9611,
+            "comments": 349,
+            "shares": 127
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8258"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-15 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9506,
+            "comments": 78,
+            "shares": 113
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/5767"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-15 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4788,
+            "comments": 221,
+            "shares": 113
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/1758"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-16 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8388,
+            "comments": 196,
+            "shares": 30
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/4380"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-16 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2244,
+            "comments": 162,
+            "shares": 37
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/6551"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-16 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4431,
+            "comments": 223,
+            "shares": 107
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/6365"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-16 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7494,
+            "comments": 132,
+            "shares": 15
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/1807"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-17 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 5951,
+            "comments": 318,
+            "shares": 13
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/8236"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-17 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2947,
+            "comments": 195,
+            "shares": 121
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/6354"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-18 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3199,
+            "comments": 162,
+            "shares": 147
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/7641"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-19 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 5097,
+            "comments": 168,
+            "shares": 37
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/5389"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-19 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9558,
+            "comments": 64,
+            "shares": 147
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8082"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-19 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3280,
+            "comments": 476,
+            "shares": 90
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/8227"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-19 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7903,
+            "comments": 183,
+            "shares": 36
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/9371"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-20 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2434,
+            "comments": 371,
+            "shares": 29
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/3077"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-20 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7520,
+            "comments": 355,
+            "shares": 51
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/1280"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-20 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4374,
+            "comments": 69,
+            "shares": 96
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/6661"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-20 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6770,
+            "comments": 397,
+            "shares": 160
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5763"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-21 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9364,
+            "comments": 142,
+            "shares": 55
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/3630"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-22 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7557,
+            "comments": 118,
+            "shares": 63
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8286"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-22 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1380,
+            "comments": 97,
+            "shares": 37
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/2209"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 239,
+            "comments": 494,
+            "shares": 55
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/5932"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2279,
+            "comments": 94,
+            "shares": 14
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/1881"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 793,
+            "comments": 283,
+            "shares": 58
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/2998"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-23 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7946,
+            "comments": 167,
+            "shares": 55
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/1143"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3845,
+            "comments": 456,
+            "shares": 67
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/4642"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-24 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 414,
+            "comments": 122,
+            "shares": 177
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/2630"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-25 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4798,
+            "comments": 352,
+            "shares": 159
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/7729"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-25 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4168,
+            "comments": 325,
+            "shares": 155
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/7167"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-25 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3587,
+            "comments": 499,
+            "shares": 124
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/6158"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-26 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3375,
+            "comments": 178,
+            "shares": 76
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/2470"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-26 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7347,
+            "comments": 377,
+            "shares": 171
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/2360"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-26 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 6014,
+            "comments": 443,
+            "shares": 93
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/7895"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-26 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3752,
+            "comments": 119,
+            "shares": 19
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/8168"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-27 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4893,
+            "comments": 102,
+            "shares": 175
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/6820"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-27 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8418,
+            "comments": 100,
+            "shares": 106
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/3984"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-28 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3645,
+            "comments": 89,
+            "shares": 154
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/5882"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-28 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8291,
+            "comments": 464,
+            "shares": 157
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/8179"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-28 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3055,
+            "comments": 255,
+            "shares": 184
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/3933"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-01 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3035,
+            "comments": 253,
+            "shares": 45
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/1202"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-01 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9108,
+            "comments": 440,
+            "shares": 71
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/4814"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-01 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8975,
+            "comments": 448,
+            "shares": 148
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/7710"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-02 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1501,
+            "comments": 111,
+            "shares": 185
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/6577"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-02 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7398,
+            "comments": 286,
+            "shares": 141
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/6132"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-02 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 9398,
+            "comments": 285,
+            "shares": 185
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/6979"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-03 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2622,
+            "comments": 338,
+            "shares": 95
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/4553"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-03 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1570,
+            "comments": 362,
+            "shares": 164
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/9302"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-03 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 8038,
+            "comments": 437,
+            "shares": 25
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/4986"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-04 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 3605,
+            "comments": 363,
+            "shares": 142
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/1992"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-04 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1923,
+            "comments": 336,
+            "shares": 177
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/9795"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7370,
+            "comments": 331,
+            "shares": 89
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/5596"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 4476,
+            "comments": 66,
+            "shares": 108
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/yankee-candle/7786"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 7978,
+            "comments": 290,
+            "shares": 124
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/1637"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-05 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 1031,
+            "comments": 304,
+            "shares": 40
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/7810"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 5531,
+            "comments": 21,
+            "shares": 148
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/7013"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 5728,
+            "comments": 110,
+            "shares": 162
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/yankee-candle/3392"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-06 13:15:40",
+        "content": "Sample post about yankee candle",
+        "engagement": {
+            "likes": 2295,
+            "comments": 147,
+            "shares": 77
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/yankee-candle/8364"
+    }
+]

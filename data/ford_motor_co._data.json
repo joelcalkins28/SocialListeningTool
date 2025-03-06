@@ -1,0 +1,1142 @@
+[
+    {
+        "platform": "X",
+        "date": "2025-02-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 4423,
+            "comments": 482,
+            "shares": 164
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./4423"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6231,
+            "comments": 147,
+            "shares": 70
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8374"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9650,
+            "comments": 192,
+            "shares": 124
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./7409"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2394,
+            "comments": 304,
+            "shares": 38
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8450"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9200,
+            "comments": 144,
+            "shares": 186
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./1625"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1106,
+            "comments": 227,
+            "shares": 131
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./5864"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6492,
+            "comments": 28,
+            "shares": 68
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8097"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9218,
+            "comments": 29,
+            "shares": 63
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5040"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3045,
+            "comments": 292,
+            "shares": 98
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./3247"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8838,
+            "comments": 52,
+            "shares": 109
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./2257"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 476,
+            "comments": 90,
+            "shares": 56
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./8553"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2667,
+            "comments": 39,
+            "shares": 186
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8796"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9471,
+            "comments": 24,
+            "shares": 135
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7470"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-07 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8895,
+            "comments": 462,
+            "shares": 26
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./4645"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-08 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5177,
+            "comments": 381,
+            "shares": 86
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8496"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-08 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 899,
+            "comments": 150,
+            "shares": 85
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./5095"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-08 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2506,
+            "comments": 97,
+            "shares": 10
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7715"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-08 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2728,
+            "comments": 137,
+            "shares": 34
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./9615"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-09 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6889,
+            "comments": 171,
+            "shares": 95
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2035"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-09 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2470,
+            "comments": 34,
+            "shares": 32
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./2073"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-09 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6124,
+            "comments": 175,
+            "shares": 163
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./9929"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-10 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9213,
+            "comments": 284,
+            "shares": 185
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./4248"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-10 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 854,
+            "comments": 75,
+            "shares": 183
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./9109"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-10 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2612,
+            "comments": 364,
+            "shares": 55
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./6144"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-11 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5920,
+            "comments": 302,
+            "shares": 26
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7797"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-11 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9364,
+            "comments": 201,
+            "shares": 184
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7330"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-11 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 4416,
+            "comments": 484,
+            "shares": 20
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./6559"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-11 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1066,
+            "comments": 197,
+            "shares": 83
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./8887"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-12 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1217,
+            "comments": 57,
+            "shares": 143
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./8441"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-12 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8955,
+            "comments": 356,
+            "shares": 105
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./3136"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-13 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 7216,
+            "comments": 270,
+            "shares": 116
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./4063"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-13 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3596,
+            "comments": 488,
+            "shares": 141
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5829"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-13 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5506,
+            "comments": 409,
+            "shares": 7
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./1324"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-13 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9178,
+            "comments": 41,
+            "shares": 75
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2414"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-14 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3097,
+            "comments": 366,
+            "shares": 104
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./8515"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-14 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2004,
+            "comments": 40,
+            "shares": 146
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./4079"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-14 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 779,
+            "comments": 181,
+            "shares": 52
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./8262"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-14 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 702,
+            "comments": 428,
+            "shares": 171
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./1776"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-14 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8277,
+            "comments": 394,
+            "shares": 157
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./6225"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-15 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5963,
+            "comments": 250,
+            "shares": 188
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./3048"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-16 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2735,
+            "comments": 136,
+            "shares": 154
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./1665"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-16 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3756,
+            "comments": 188,
+            "shares": 47
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./9269"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-16 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 181,
+            "comments": 452,
+            "shares": 200
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./4180"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-16 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9333,
+            "comments": 72,
+            "shares": 97
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8859"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-16 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8767,
+            "comments": 477,
+            "shares": 169
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./5261"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-17 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8046,
+            "comments": 211,
+            "shares": 46
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./9299"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-17 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5714,
+            "comments": 86,
+            "shares": 51
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./6406"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-17 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5644,
+            "comments": 138,
+            "shares": 60
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./1428"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-17 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 4637,
+            "comments": 222,
+            "shares": 96
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2481"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-17 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 505,
+            "comments": 101,
+            "shares": 84
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./4459"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-18 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 7562,
+            "comments": 190,
+            "shares": 108
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./2663"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-18 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5851,
+            "comments": 244,
+            "shares": 54
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./6167"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-18 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5336,
+            "comments": 459,
+            "shares": 117
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./8322"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-18 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6120,
+            "comments": 265,
+            "shares": 99
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./8961"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-18 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9823,
+            "comments": 371,
+            "shares": 101
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./9658"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-19 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3149,
+            "comments": 30,
+            "shares": 189
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2147"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-20 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8650,
+            "comments": 440,
+            "shares": 178
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7363"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-20 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 7073,
+            "comments": 217,
+            "shares": 200
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./5356"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-21 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1244,
+            "comments": 26,
+            "shares": 66
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5133"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-21 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3338,
+            "comments": 298,
+            "shares": 149
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./2380"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-21 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9481,
+            "comments": 408,
+            "shares": 18
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./2982"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-22 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8278,
+            "comments": 418,
+            "shares": 159
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./6836"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-22 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1514,
+            "comments": 480,
+            "shares": 92
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./7977"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-23 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 465,
+            "comments": 96,
+            "shares": 28
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./7305"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1698,
+            "comments": 267,
+            "shares": 44
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./3046"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-23 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5176,
+            "comments": 286,
+            "shares": 174
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./4769"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-23 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3547,
+            "comments": 263,
+            "shares": 108
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2619"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-23 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 7053,
+            "comments": 361,
+            "shares": 56
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./1927"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-24 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9572,
+            "comments": 493,
+            "shares": 145
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./5853"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-25 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6032,
+            "comments": 40,
+            "shares": 66
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./3504"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-26 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5324,
+            "comments": 482,
+            "shares": 73
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./8997"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-02-26 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 7308,
+            "comments": 434,
+            "shares": 79
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./4629"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-27 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9485,
+            "comments": 136,
+            "shares": 33
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./4784"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-27 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 128,
+            "comments": 466,
+            "shares": 72
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./2563"
+    },
+    {
+        "platform": "X",
+        "date": "2025-02-27 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8101,
+            "comments": 431,
+            "shares": 76
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./7181"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-27 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3285,
+            "comments": 448,
+            "shares": 200
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./3518"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-27 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9749,
+            "comments": 278,
+            "shares": 35
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./6722"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-02-28 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 3671,
+            "comments": 310,
+            "shares": 176
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./1110"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-01 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6215,
+            "comments": 292,
+            "shares": 49
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./3572"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-01 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9576,
+            "comments": 308,
+            "shares": 88
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./2084"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-02 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8980,
+            "comments": 203,
+            "shares": 84
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./2242"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-02 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2392,
+            "comments": 245,
+            "shares": 128
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5934"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-02 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 5742,
+            "comments": 86,
+            "shares": 74
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5413"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-03 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1041,
+            "comments": 104,
+            "shares": 103
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./3042"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-03 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2153,
+            "comments": 32,
+            "shares": 97
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./6719"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-03 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 9397,
+            "comments": 244,
+            "shares": 123
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./5947"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 4187,
+            "comments": 285,
+            "shares": 196
+        },
+        "sentiment": "positive",
+        "url": "https://example.com/ford-motor-co./3966"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 1171,
+            "comments": 498,
+            "shares": 142
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./1515"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 6318,
+            "comments": 263,
+            "shares": 199
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./2801"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-04 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 8932,
+            "comments": 147,
+            "shares": 129
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./8817"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2140,
+            "comments": 218,
+            "shares": 96
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7125"
+    },
+    {
+        "platform": "X",
+        "date": "2025-03-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 4688,
+            "comments": 321,
+            "shares": 129
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./7627"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-05 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 2274,
+            "comments": 293,
+            "shares": 78
+        },
+        "sentiment": "negative",
+        "url": "https://example.com/ford-motor-co./1540"
+    },
+    {
+        "platform": "Facebook",
+        "date": "2025-03-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 291,
+            "comments": 296,
+            "shares": 29
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./5193"
+    },
+    {
+        "platform": "Instagram",
+        "date": "2025-03-06 13:17:46",
+        "content": "Sample post about Ford Motor Co.",
+        "engagement": {
+            "likes": 230,
+            "comments": 456,
+            "shares": 113
+        },
+        "sentiment": "neutral",
+        "url": "https://example.com/ford-motor-co./8654"
+    }
+]
