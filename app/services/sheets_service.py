@@ -13,87 +13,34 @@ logger = logging.getLogger(__name__)
 class GoogleSheetsService:
     def __init__(self):
         try:
-            # Get credentials from environment variables
-            private_key = os.getenv("GOOGLE_PRIVATE_KEY")
-            if not private_key:
-                raise ValueError("GOOGLE_PRIVATE_KEY environment variable is not set")
+            # Get the credentials JSON string from environment variable
+            creds_json = os.getenv("GOOGLE_CREDENTIALS_JSON")
+            if not creds_json:
+                raise ValueError("GOOGLE_CREDENTIALS_JSON environment variable is not set")
 
-            logger.debug("Attempting to process private key...")
-            
-            # Clean up the private key
-            private_key = private_key.strip()
-            
-            # If the key doesn't have the proper markers, it might be base64 encoded
-            if "-----BEGIN PRIVATE KEY-----" not in private_key:
-                try:
-                    # Try to decode base64
-                    decoded_key = base64.b64decode(private_key).decode('utf-8')
-                    logger.debug("Successfully decoded base64 private key")
-                    private_key = decoded_key
-                except Exception as e:
-                    logger.error(f"Failed to decode base64 key: {str(e)}")
-                    raise ValueError("Private key is neither properly formatted nor valid base64")
+            try:
+                # Parse the JSON string
+                credentials_info = json.loads(creds_json)
+                logger.debug("Successfully parsed credentials JSON")
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to parse credentials JSON: {str(e)}")
+                raise ValueError("Invalid JSON format in GOOGLE_CREDENTIALS_JSON")
 
-            # Ensure proper line breaks
-            if '\\n' in private_key:
-                private_key = private_key.replace('\\n', '\n')
-            
-            # Ensure proper formatting
-            if not private_key.startswith('-----BEGIN PRIVATE KEY-----\n'):
-                private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}"
-            if not private_key.endswith('\n-----END PRIVATE KEY-----\n'):
-                private_key = f"{private_key}\n-----END PRIVATE KEY-----\n"
-            
-            # Log key structure (safely)
-            logger.debug("Private key validation:")
-            logger.debug(f"Key starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
-            logger.debug(f"Key ends with correct footer: {private_key.endswith('-----END PRIVATE KEY-----\n')}")
-            logger.debug(f"Number of newlines: {private_key.count('\n')}")
-            logger.debug(f"Total length: {len(private_key)}")
-            
-            credentials = {
-                "type": "service_account",
-                "project_id": os.getenv("GOOGLE_PROJECT_ID"),
-                "private_key_id": os.getenv("GOOGLE_PRIVATE_KEY_ID"),
-                "private_key": private_key,
-                "client_email": os.getenv("GOOGLE_CLIENT_EMAIL"),
-                "client_id": os.getenv("GOOGLE_CLIENT_ID"),
-                "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-                "token_uri": "https://oauth2.googleapis.com/token",
-                "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-                "client_x509_cert_url": os.getenv("GOOGLE_CLIENT_X509_CERT_URL")
-            }
-            
-            # Log environment variables status
-            logger.info("Checking environment variables...")
-            for key, value in credentials.items():
-                if key != "private_key":  # Don't log the actual private key
-                    logger.info(f"{key}: {'set' if value else 'not set'}")
-            
-            # Validate required fields
-            required_fields = ["project_id", "private_key_id", "private_key", "client_email", "client_id", "client_x509_cert_url"]
-            missing_fields = [field for field in required_fields if not credentials.get(field)]
-            if missing_fields:
-                raise ValueError(f"Missing required environment variables: {', '.join(missing_fields)}")
-            
+            # Define the required scopes
             self.scope = [
                 'https://spreadsheets.google.com/feeds',
                 'https://www.googleapis.com/auth/drive'
             ]
             
             try:
-                logger.debug("Attempting to create credentials...")
-                # Log the structure of credentials (safely)
-                safe_creds = {k: ('set' if v else 'not set') for k, v in credentials.items()}
-                logger.debug(f"Credentials structure: {json.dumps(safe_creds, indent=2)}")
-                
+                # Create credentials from the JSON
                 self.credentials = Credentials.from_service_account_info(
-                    credentials,
+                    credentials_info,
                     scopes=self.scope
                 )
                 logger.debug("Credentials created successfully")
                 
-                logger.debug("Attempting to authorize with gspread...")
+                # Initialize gspread client
                 self.client = gspread.authorize(self.credentials)
                 logger.debug("gspread authorization successful")
                 
@@ -101,14 +48,10 @@ class GoogleSheetsService:
                 logger.info("Successfully initialized Google Sheets service")
             except Exception as e:
                 logger.error(f"Failed to initialize credentials: {str(e)}")
-                if hasattr(e, '__dict__'):
-                    logger.error(f"Error details: {e.__dict__}")
                 raise
                 
         except Exception as e:
             logger.error(f"Failed to initialize Google Sheets service: {str(e)}")
-            if hasattr(e, '__dict__'):
-                logger.error(f"Error details: {e.__dict__}")
             raise
     
     def create_or_get_spreadsheet(self, brand_name: str) -> gspread.Spreadsheet:
