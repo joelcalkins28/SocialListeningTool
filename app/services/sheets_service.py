@@ -12,11 +12,18 @@ logger = logging.getLogger(__name__)
 class GoogleSheetsService:
     def __init__(self):
         # Get credentials from environment variables
+        private_key = os.getenv("GOOGLE_PRIVATE_KEY")
+        if private_key:
+            # Handle both escaped and unescaped newlines
+            private_key = private_key.replace('\\n', '\n')
+            if not private_key.startswith('-----BEGIN PRIVATE KEY-----'):
+                private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}\n-----END PRIVATE KEY-----\n"
+        
         credentials = {
             "type": "service_account",
             "project_id": os.getenv("GOOGLE_PROJECT_ID"),
             "private_key_id": os.getenv("GOOGLE_PRIVATE_KEY_ID"),
-            "private_key": os.getenv("GOOGLE_PRIVATE_KEY").replace("\\n", "\n"),
+            "private_key": private_key,
             "client_email": os.getenv("GOOGLE_CLIENT_EMAIL"),
             "client_id": os.getenv("GOOGLE_CLIENT_ID"),
             "auth_uri": "https://accounts.google.com/o/oauth2/auth",
@@ -24,6 +31,12 @@ class GoogleSheetsService:
             "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
             "client_x509_cert_url": os.getenv("GOOGLE_CLIENT_X509_CERT_URL")
         }
+        
+        # Log environment variables status for debugging
+        logger.info("Checking environment variables...")
+        for key in ["GOOGLE_PROJECT_ID", "GOOGLE_PRIVATE_KEY_ID", "GOOGLE_PRIVATE_KEY", 
+                   "GOOGLE_CLIENT_EMAIL", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_X509_CERT_URL"]:
+            logger.info(f"{key} is {'set' if os.getenv(key) else 'not set'}")
         
         # Validate required fields
         required_fields = ["project_id", "private_key_id", "private_key", "client_email", "client_id", "client_x509_cert_url"]
@@ -37,13 +50,17 @@ class GoogleSheetsService:
         ]
         
         # Create credentials from the dictionary
-        self.credentials = Credentials.from_service_account_info(
-            credentials,
-            scopes=self.scope
-        )
-        
-        self.client = gspread.authorize(self.credentials)
-        self.spreadsheet = None
+        try:
+            self.credentials = Credentials.from_service_account_info(
+                credentials,
+                scopes=self.scope
+            )
+            self.client = gspread.authorize(self.credentials)
+            self.spreadsheet = None
+            logger.info("Successfully initialized Google Sheets service")
+        except Exception as e:
+            logger.error(f"Failed to initialize Google Sheets service: {str(e)}")
+            raise
     
     def create_or_get_spreadsheet(self, brand_name: str) -> gspread.Spreadsheet:
         """
