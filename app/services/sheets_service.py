@@ -15,39 +15,32 @@ class GoogleSheetsService:
         try:
             # Get credentials from environment variables
             private_key = os.getenv("GOOGLE_PRIVATE_KEY")
-            if private_key:
-                try:
-                    # Try to decode if it's base64 encoded
-                    private_key = base64.b64decode(private_key).decode('utf-8')
-                except:
-                    # If not base64, use as is
-                    pass
-                
-                # Clean up the private key
-                private_key = private_key.strip()
+            if not private_key:
+                raise ValueError("GOOGLE_PRIVATE_KEY environment variable is not set")
+
+            logger.debug("Attempting to process private key...")
+            try:
+                # Try to decode if it's base64 encoded
+                decoded_key = base64.b64decode(private_key).decode('utf-8')
+                logger.debug("Successfully decoded base64 private key")
+                private_key = decoded_key
+            except Exception as e:
+                logger.debug(f"Key is not base64 encoded, using as is: {str(e)}")
+                # If not base64, use as is
+                pass
+
+            # Clean up the private key
+            private_key = private_key.strip()
+            if '\\n' in private_key:
                 private_key = private_key.replace('\\n', '\n')
-                private_key = private_key.replace('\\"', '"')
-                
-                # Ensure proper formatting
-                if not private_key.startswith('-----BEGIN PRIVATE KEY-----'):
-                    private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}"
-                if not private_key.endswith('-----END PRIVATE KEY-----'):
-                    private_key = f"{private_key}\n-----END PRIVATE KEY-----"
-                if not private_key.endswith('\n'):
-                    private_key += '\n'
-                
-                # Log key structure (safely)
-                logger.debug("Private key validation:")
-                logger.debug(f"Starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
-                end_marker = '-----END PRIVATE KEY-----\n'
-                logger.debug(f"Ends with correct footer: {private_key.endswith(end_marker)}")
-                newline_count = private_key.count('\n')
-                logger.debug(f"Number of newlines in key: {newline_count}")
-                
-                # Additional debug info
-                key_parts = private_key.split('\n')
-                logger.debug(f"Number of key parts: {len(key_parts)}")
-                logger.debug(f"Key structure valid: {len(key_parts) > 2 and key_parts[0].startswith('-----BEGIN') and key_parts[-2].endswith('-----')}")
+            
+            # Log key structure (safely)
+            logger.debug("Private key validation:")
+            logger.debug(f"Key starts with: {private_key[:27]}")
+            logger.debug(f"Key ends with: {private_key[-25:]}")
+            logger.debug(f"Key length: {len(private_key)}")
+            logger.debug(f"Contains BEGIN marker: {'BEGIN PRIVATE KEY' in private_key}")
+            logger.debug(f"Contains END marker: {'END PRIVATE KEY' in private_key}")
             
             credentials = {
                 "type": "service_account",
@@ -62,7 +55,7 @@ class GoogleSheetsService:
                 "client_x509_cert_url": os.getenv("GOOGLE_CLIENT_X509_CERT_URL")
             }
             
-            # Log environment variables status for debugging
+            # Log environment variables status
             logger.info("Checking environment variables...")
             for key, value in credentials.items():
                 if key != "private_key":  # Don't log the actual private key
@@ -79,7 +72,6 @@ class GoogleSheetsService:
                 'https://www.googleapis.com/auth/drive'
             ]
             
-            # Create credentials from the dictionary
             try:
                 logger.debug("Attempting to create credentials...")
                 # Log the structure of credentials (safely)
