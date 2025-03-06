@@ -19,28 +19,37 @@ class GoogleSheetsService:
                 raise ValueError("GOOGLE_PRIVATE_KEY environment variable is not set")
 
             logger.debug("Attempting to process private key...")
-            try:
-                # Try to decode if it's base64 encoded
-                decoded_key = base64.b64decode(private_key).decode('utf-8')
-                logger.debug("Successfully decoded base64 private key")
-                private_key = decoded_key
-            except Exception as e:
-                logger.debug(f"Key is not base64 encoded, using as is: {str(e)}")
-                # If not base64, use as is
-                pass
-
+            
             # Clean up the private key
             private_key = private_key.strip()
+            
+            # If the key doesn't have the proper markers, it might be base64 encoded
+            if "-----BEGIN PRIVATE KEY-----" not in private_key:
+                try:
+                    # Try to decode base64
+                    decoded_key = base64.b64decode(private_key).decode('utf-8')
+                    logger.debug("Successfully decoded base64 private key")
+                    private_key = decoded_key
+                except Exception as e:
+                    logger.error(f"Failed to decode base64 key: {str(e)}")
+                    raise ValueError("Private key is neither properly formatted nor valid base64")
+
+            # Ensure proper line breaks
             if '\\n' in private_key:
                 private_key = private_key.replace('\\n', '\n')
             
+            # Ensure proper formatting
+            if not private_key.startswith('-----BEGIN PRIVATE KEY-----\n'):
+                private_key = f"-----BEGIN PRIVATE KEY-----\n{private_key}"
+            if not private_key.endswith('\n-----END PRIVATE KEY-----\n'):
+                private_key = f"{private_key}\n-----END PRIVATE KEY-----\n"
+            
             # Log key structure (safely)
             logger.debug("Private key validation:")
-            logger.debug(f"Key starts with: {private_key[:27]}")
-            logger.debug(f"Key ends with: {private_key[-25:]}")
-            logger.debug(f"Key length: {len(private_key)}")
-            logger.debug(f"Contains BEGIN marker: {'BEGIN PRIVATE KEY' in private_key}")
-            logger.debug(f"Contains END marker: {'END PRIVATE KEY' in private_key}")
+            logger.debug(f"Key starts with correct header: {private_key.startswith('-----BEGIN PRIVATE KEY-----')}")
+            logger.debug(f"Key ends with correct footer: {private_key.endswith('-----END PRIVATE KEY-----\n')}")
+            logger.debug(f"Number of newlines: {private_key.count('\n')}")
+            logger.debug(f"Total length: {len(private_key)}")
             
             credentials = {
                 "type": "service_account",
